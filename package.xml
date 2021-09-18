@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>marvelmind_nav</name>
+  <version>1.0.11</version>
+  <description>Marvelmind local navigation system</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag --> 
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <!-- <maintainer email="marvelmind@gmail.com">Marvelmind Robotics</maintainer> -->
+  <maintainer email="smoker77@gmail.com">smoker77</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/marvelmind_nav</url> -->
+  <url type="website">http://marvelmind.com</url>
+
+
+  <!-- Author tags are optional, mutiple are allowed, one per tag -->
+  <!-- Authors do not have to be maintianers, but could be -->
+  <!-- Example: -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+  <author email="smoker77@gmail.com">smoker77</author>
+
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <build_depend>message_generation</build_depend>
+  <!-- Use buildtool_depend for build tool packages: -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- Use exec_depend for packages you need at runtime: -->
+  <exec_depend>message_runtime</exec_depend>
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>localization_interfaces</build_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>localization_interfaces</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_msgs</exec_depend>
+
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
